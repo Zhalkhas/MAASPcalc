@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Coves";
+    src: url("../font/Coves Light.otf");
+}
+
+html * {
+    font-family: "Coves";
+}
+
+html,
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+.table {
+    border: none;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+}

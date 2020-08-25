@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="../inc/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <button type="button" id="main-menu" class="btn btn-default btn-sm">
+                <i class="fas fa-arrow-alt-circle-left"></i> Back to Main Menu
+              </button>
+        </div>
+        <div class="row d-flex">
+            <div class="col-md-6 my-auto">
+                <h1>B Annulus</h1>
+            </div>
+            <div class="col-md-6">
+                <h1>MAASP Calculator v0.0001</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <table class="m-2">
+                    <tr>
+                        <td>Calculation point</td>
+                        <td>
+                            <select id="point-selector" class="custom-select">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table class="m-2" id="valstable">
+                </table>
+                <table>
+                    <tr>
+                        <td><button class="btn btn-outline-secondary m-3 p-3" id="calc">Calculate</button></td>
+                        <td><button class="btn btn-outline-secondary m-3 p-3" id="conv">Convert units</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div class="row justify-content-md-center"><img src="../inc/img/caseB.jpg"></img>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="../calc.js"></script>
+    <script src="../calcB.js"></script>
+</body>
+
+</html>

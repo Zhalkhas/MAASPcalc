@@ -1,0 +1,25 @@
+{
+    "name": "MAASPCalc",
+    "version": "0.1.0",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "electron ."
+    },
+    "description": "MAASP Calculator allows users to test annuli configurations and equipment to help program and provide safer well operations in any annulus conditions by ensurance repeatability and QA of the calculation",
+    "author": {
+        "name": "Anon"
+    },
+    "jquery": "^3.3.1",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.1",
+        "bootstrap": "^4.4.1",
+        "electron": "^7.1.11",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {
+        "asar": "^2.1.0",
+        "electron-winstaller": "^4.0.0"
+    }
+}

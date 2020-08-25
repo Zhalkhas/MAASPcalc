@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="../inc/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container-fluid h-100 w-100">
+        <div class="row align-items-center justify-content-center h-25">
+            <h1>MAASP Calculator v0.0001</h1>
+        </div>
+        <div class="row align-self-center h-50">
+            <div class="col-md-4 my-auto text-center">
+                <img src="../inc/img/caseA.jpg"></img>
+                <button class="btn btn-outline-secondary m-5 p-3" id="btnA">A-Annulus</button>
+            </div>
+
+            <div class="col-md-4 my-auto text-center">
+                <img src="../inc/img/caseB.jpg"></img>
+                <button class="btn btn-outline-secondary m-5 p-3" id="btnB">B-Annulus</button>
+            </div>
+            <div class="col-md-4 my-auto text-center">
+                <img src="../inc/img/caseC.jpg"></img>
+                <button class="btn btn-outline-secondary m-5 p-3" id="btnC">C-Annulus</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="../renderer.mjs"></script>
+</body>
+
+</html>

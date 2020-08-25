@@ -1,0 +1,5 @@
+node_modules
+.vscode
+MAASPCalc-linux-x64
+MAASPCalc-win32-x64
+MAASPCalc.asar
